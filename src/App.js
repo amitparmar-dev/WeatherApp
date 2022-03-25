@@ -10,7 +10,7 @@ const App = props =>{
       
     const api = {
         baseURL : "http://api.openweathermap.org/data/2.5/weather",
-        key : "995af56703c54a0fbfb4baae77c4fda2"
+        key : "995af56703c54a0fbfb4baae77c4fda" // This is a dummy key value. You can generate your key from openweathermap.org
     }
 
     const onKeyPress = city => {
